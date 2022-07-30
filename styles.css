@@ -30,11 +30,10 @@ p {
 .results {
     height: 300px;
     display: flex;
-    border: 1px solid black;
     padding: 10px;
     flex-direction: column;
     margin: 30%;
-    margin-top: 5%;
+    margin-top: 6em;
     margin-bottom: 5%;
     justify-content: center;
 }
@@ -47,7 +46,6 @@ p {
 
 .scores, .current {
     height: 300px;
-    border: 1px solid black;
     padding: 10px;
     flex-direction: row;
     display: flex;
@@ -67,14 +65,9 @@ p {
     margin: 5%;
 }
 
-.current {
-    
-}
-
 .computerDivPick, .playerDivPick {
     height: 300px;
     display: flex;
-    border: 1px solid black;
     padding-right: 3%;
     flex-direction: column;
     justify-content: center;
@@ -84,4 +77,14 @@ p {
 #computerImg, #playerImg {
     width: 8em;
     height: 8em;
+}
+
+.header {
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 102%;
+    margin-left: -1em;
 }

@@ -83,8 +83,11 @@ function winnerRound(round) {
 function checkEnd() {
     if (playerScore == 5 || computerScore == 5) {
         winner.textContent = ("Winner: " + checkWinner());
+        (confirm("Winner: " + checkWinner() + "\nPlayer: " + playerScore + "\nComputer: " + computerScore + "\nPress OK to reset"));
         playerScore = 0;
         computerScore = 0;
+        scorePlayer.textContent = ("Player: " + playerScore);
+        scoreComputer.textContent = ("Computer: " + computerScore);
     }
 }
 
