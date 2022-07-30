@@ -5,9 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class = "results">
+        <div class = "current">
+            <div class = "playerDivPick">
+                <p id="pickPlayer">Player: </p>
+                <img id = "playerImg" src="images/questionmark.png"></img>
+            </div>
+            <div class = "computerDivPick">
+                <p id="pickComputer">Computer: </p>
+                <img id = "computerImg" src="images/questionmark.png"></img>
+            </div>
+        </div>
+        <div class = "scores">
+            <p id="scorePlayer">Player: 0</p>
+            <p id="scoreComputer">Computer: 0</p>
+        </div>
+        <div class = "vertical">
+            <p id="round">Select a weapon to start!</p>
+            <p id="winner">Winner: ?</p>
+        </div>
+    </div>
+    <div class = "buttons">
+        <img src="images/rock.png" id = "rock" type = "button"></img>
+        <img src="images/paper.png" id = "paper" type = "button"></img>
+        <img src="images/scissors.png" id = "scissors" type = "button"></img>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

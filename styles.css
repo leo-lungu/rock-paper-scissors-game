@@ -1,0 +1,87 @@
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons p {
+    height: 100px;
+    flex: 1;
+}
+
+img {
+    width: 8em;
+    height: auto;
+    margin: 10%;
+    background-color: rgb(67, 66, 68);
+}
+
+body {
+    background-color: #212129;
+}
+
+img:hover {
+    background-color: #3c4457;
+}
+
+p {
+    color: white;
+}
+
+.results {
+    height: 300px;
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-direction: column;
+    margin: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: center;
+}
+
+.scores, .vertical {
+    flex: auto;
+    background: #b4bac0;
+    margin: 10px;
+}
+
+.scores, .current {
+    height: 300px;
+    border: 1px solid black;
+    padding: 10px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vertical {
+    display: vertical;
+    flex: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#scoreComputer, #scorePlayer{
+    margin: 5%;
+}
+
+.current {
+    
+}
+
+.computerDivPick, .playerDivPick {
+    height: 300px;
+    display: flex;
+    border: 1px solid black;
+    padding-right: 3%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#computerImg, #playerImg {
+    width: 8em;
+    height: 8em;
+}
